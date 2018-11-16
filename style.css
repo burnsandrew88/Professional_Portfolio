@@ -1,0 +1,42 @@
+
+.jumbotron{
+    background-color: rgb(0,0,0,0.7);
+}
+
+#brand{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+
+
+}
+#card-header{
+    background-color: black;
+}
+
+strong{
+    background-color: rgb(0,0,0,0.9);
+    padding-bottom: 63px;
+    padding-right:5px;
+    padding-left:5px;
+    padding-top:25px;
+}
+
+#navbarGroup{
+    font-family: 'Oswald', sans-serif;
+    padding-left:125px;
+}
+
+button{
+    background-color: rgb(0,0,0,0.7);
+    color: white;
+    
+}
+
+body{
+    background-image: url("./images/portfolio-background.jpg");
+}
+
+h2{
+    color:white;
+}
