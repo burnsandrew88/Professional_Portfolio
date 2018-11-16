@@ -40,3 +40,22 @@ body{
 h2{
     color:white;
 }
+#biocontent{
+    background-color:rgb(0,0,0,0.7);
+    color: white;
+    font-size:20px;
+
+}
+p{
+    font-family: 'Oswald', sans-serif;
+}
+
+footer{
+    background-color: rgb(0,0,0,0.7);
+    color:white;
+    text-align: center;
+    position: sticky;
+    width:80%;
+    padding:20px;
+    margin-left:150px;
+}
