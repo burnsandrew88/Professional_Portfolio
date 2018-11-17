@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+
     <style>
         .jumbotron {
             background-color: rgb(0, 0, 0, 0.7);
@@ -95,55 +97,87 @@
             </div>
 
         </div>
-        <div class="container" id="portfolio-content">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="img-container">
-                        <img class="img-fluid" src="#" alt="#">
+        <div class="container" id="portfolio-projects" class="carousel slide" data-ride="carousel">
+            <!--Carousel Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#portfolio-projects" data-slide="0" class="active"></li>
+                <li data-target="#portfolio-projects" data-slide-to="1"></li>
+                <li data-target="#portfolio-projects" data-slide-to="2"></li>
+                <li data-target="#portfolio-projects" data-slide-to="3"></li>
+                <li data-target="#portfolio-projects" data-slide-to="4"></li>
+
+            </ol>
+            <!--Wrapper for the Slides-->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./images/project.png" href="https://alanwagner101.github.io/Project1/" alt="First Slide">
+                    <div class="carousel-caption" id="Project1Cap">
+                        <h1 style="background-color: #a9a9a9; color: black; opacity: 0.7;" id="projectLink">NaPS App</h1>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="img-container">
-                        <img class="img-fluid" src="#" alt="#">
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/trainscheduler.png" href="https://burnsandrew88.github.io/TrainScheduler/" alt="Second Slide">
+                    <div class="carousel-caption">
+                        <h1 style="background-color: #a9a9a9; color: black; opacity: 0.7;" id="projectLink">Train Schedule</h1>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="img-container">
-                        <img class="img-fluid" src="#" alt="#">
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Giftastic.png" href="https://burnsandrew88.github.io/GifTastic/" alt="Third Slide">
+                    <div class="carousel-caption">
+                        <h1 style="background-color: #a9a9a9; color: black; opacity: 0.7;"id="projectLink">Giftastic</h1>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trivia.png" href=" https://burnsandrew88.github.io/TriviaGame/" alt="Fourth Slide">
+                    <div class="carousel-caption">
+                        <h1 style="background-color: #a9a9a9; color: black; opacity: 0.7;" id="projectLink">Vikings Trivia</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/crystalcollector.png" href="https://burnsandrew88.github.io/Unit-4-Game/" alt="Fifth Slide">
+                    <div class="carousel-caption">
+                        <h1 style="background-color: #a9a9a9; color: black; opacity: 0.7;" id="projectLink">Crystal Collector</h1>
+                    </div>
+                </div>
+
+
+                <!--Carousel Navigations-->
+                <a class="carousel-control-prev" href="#portfolio-projects" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#portfolio-projects" role="button" data-slide="carousel-control-next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="img-container">
-                        <img class="img-fluid" src="#" alt="#">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="img-container">
-                        <img class="img-fluid" src="#" alt="#">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="img-container">
-                        <img class="img-fluid" src="#" alt="#">
-                    </div>
-                </div>
-            </div>
+
+        </div>
         </div>
 
     </section>
 
     <footer>
-        <h5 style:"font-family:'Oswald', sans-serif;">burnsandrew88@gmail.com</h5>
-        <br> 
+        <h5 style: "font-family:'Oswald', sans-serif;">burnsandrew88@gmail.com</h5>
+        <h5 style="font-family: 'Oswald', sans-serif;">651-253-2811</h5>
+        <br>
         <button>Contact Me</button>
         <br>
         <br>
         <p>Copyright© 2018</p>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-linkedin"></i>
     </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 
 </body>
 
 </html>
-
