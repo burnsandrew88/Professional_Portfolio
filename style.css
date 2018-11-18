@@ -51,7 +51,7 @@ h5{
     background-color:rgb(0,0,0,0.7);
     color: white;
     font-size:20px;
-    margin-bottom: 200px;
+    margin-bottom: 160px;
 
 }
 #portfolio-projects{
@@ -75,4 +75,32 @@ i{
 
 section{
     margin-bottom: 200px;
+}
+.carousel-indicators{
+    position:relative;
+}
+
+@media (max-width: 760px){
+    #navbarGroup{
+        padding-left: 100px;
+    }
+}
+@media (min-width: 768px){
+    #navbarGroup{
+        padding-left: 192px;
+    }
+    .img.img-thumbnail{
+        margin-left:60px;
+    }
+}
+@media (min-width: 991px){
+    #navbarGroup{
+        padding-left:125px;
+    }
+    .img.img-thumbnail{
+
+        width: 90%;
+        margin-left:25px;
+
+    }
 }
