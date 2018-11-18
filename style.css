@@ -51,6 +51,7 @@ h5{
     background-color:rgb(0,0,0,0.7);
     color: white;
     font-size:20px;
+    margin-bottom: 200px;
 
 }
 #portfolio-projects{
@@ -70,4 +71,8 @@ footer{
 }
 i{
     font-size: 22px;
+}
+
+section{
+    margin-bottom: 200px;
 }
