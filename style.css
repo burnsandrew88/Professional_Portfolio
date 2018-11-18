@@ -82,12 +82,12 @@ section{
 
 @media (max-width: 760px){
     #navbarGroup{
-        padding-left: 100px;
+        padding-left: 115px;
     }
 }
 @media (min-width: 768px){
     #navbarGroup{
-        padding-left: 192px;
+        padding-left: 205px;
     }
     .img.img-thumbnail{
         margin-left:60px;
@@ -95,7 +95,7 @@ section{
 }
 @media (min-width: 991px){
     #navbarGroup{
-        padding-left:125px;
+        padding-left:120px;
     }
     .img.img-thumbnail{
 
@@ -103,4 +103,10 @@ section{
         margin-left:25px;
 
     }
+} .btn{
+    margin-right: 3px;
+}
+
+#portfolioBtn{
+    color:white;
 }
