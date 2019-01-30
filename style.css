@@ -82,15 +82,15 @@ section{
 
 @media (max-width: 760px){
     .carousel-caption h1, .carousel-caption h2,.carousel-caption h3{
-        font-size: 26px;
+        font-size: 20px;
     }
     #navbarGroup{
         padding-left: 115px;
     }
 }
-@media (min-width: 768px){
+@media (min-width: 765px){
     .carousel-caption h1, .carousel-caption h2,.carousel-caption h3{
-        font-size: 26px;
+        font-size: 20px;
     }
     #navbarGroup{
         padding-left: 205px;
@@ -99,7 +99,7 @@ section{
         margin-left:60px;
     }
 }
-@media (min-width: 991px){
+@media (min-width: 992px){
     .carousel-caption h1, .carousel-caption h2,.carousel-caption h3{
         font-size: 26px;
     }
