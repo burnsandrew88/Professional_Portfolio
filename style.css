@@ -52,8 +52,9 @@ body{
 .headingText{
     color:white;
     text-align: center;
+    font-weight:bold;
 }
-h5{
+h3{
     font-family: 'Oswald', sans-serif;
 }
 #biocontent{
@@ -82,7 +83,7 @@ footer{
     padding:20px;
 }
 i{
-    font-size: 22px;
+    font-size: 50px;
 }
 
 section{
@@ -140,4 +141,7 @@ section{
 
 #buttons {
     color: white;
+}
+#copyright{
+    font-size: 30px; 
 }
