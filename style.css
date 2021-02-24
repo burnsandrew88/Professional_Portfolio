@@ -10,16 +10,22 @@
 
 
 }
+#bioHeader-box {
+    background-color: rgb(0,0,0,0.7);
+}
+#portfolioSection{
+    background-color:rgb(0,0,0,0.7);
+    padding-bottom: 40px;
+}
 #card-header{
-    background-color: black;
     color:white;
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    width: 100%;
 }
 
 strong{
-    background-color: rgb(0,0,0,0.9);
     padding-bottom: 63px;
     padding-right:5px;
     padding-left:5px;
@@ -38,11 +44,14 @@ button{
 }
 
 body{
-    background-image: url("./images/portfolio-background.jpg");
+    background-image: url("./images/keith-misner-h0Vxgz5tyXA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-h2{
+.headingText{
     color:white;
+    text-align: center;
 }
 h5{
     font-family: 'Oswald', sans-serif;
@@ -56,6 +65,9 @@ h5{
 }
 #portfolio-projects{
     background-color: rgb(0,0,0,0.7);
+}
+#portfolioCarousel{
+    width: auto;
 }
 p{
     font-family: 'Oswald', sans-serif;
@@ -96,7 +108,7 @@ section{
         padding-left: 205px;
     }
     .img.img-thumbnail{
-        margin-left:60px;
+        margin-left:30px;
     }
 }
 @media (min-width: 992px){
@@ -108,8 +120,14 @@ section{
     }
     .img.img-thumbnail{
 
-        width: 90%;
-        margin-left:25px;
+        width: 100%;
+        margin-left:10px;
+        margin-top:10px;
+        margin-bottom:10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top:10px;
+        padding-bottom:10px;
 
     }
 } .btn{
@@ -118,4 +136,8 @@ section{
 
 #portfolioBtn{
     color:white;
+}
+
+#buttons {
+    color: white;
 }
