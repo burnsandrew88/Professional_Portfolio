@@ -134,9 +134,13 @@ section{
 } .btn{
     margin-right: 3px;
 }
+#navButtons{
+    font-size: 20px;
+}
 
 #portfolioBtn{
     color:white;
+    font-size:20px
 }
 
 #buttons {
