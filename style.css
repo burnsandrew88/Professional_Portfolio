@@ -3,13 +3,25 @@
     background-color: rgb(0,0,0,0.7);
 }
 
-#brand{
+.navbar-brand{
     color: white;
     font-family: 'Oswald', sans-serif;
-    font-size: 48px;
-
-
+    font-size: 3rem;
 }
+
+.navLinks {
+    margin-left:auto;
+    font-family:'Oswald', sans-serif;
+}
+.bio-box {
+    margin-top:32px;
+    padding: 16px 16px;
+}
+.portfolio-box {
+    padding: 16px 16px;
+}
+
+
 #bioHeader-box {
     background-color: rgb(0,0,0,0.7);
 }
@@ -32,9 +44,9 @@ strong{
     padding-top:25px;
 }
 
-#navbarGroup{
+#navLinks{
     font-family: 'Oswald', sans-serif;
-    padding-left:125px;
+    margin-left:auto;
 }
 
 button{
@@ -54,14 +66,14 @@ body{
     text-align: center;
     font-weight:bold;
 }
-h3{
+h2,h3,h4{
     font-family: 'Oswald', sans-serif;
 }
 #biocontent{
     background-color:rgb(0,0,0,0.7);
     color: white;
     font-size:20px;
-    margin-bottom: 160px;
+    margin-bottom: 48px;
 
 }
 #portfolio-projects{
@@ -87,7 +99,7 @@ i{
 }
 
 section{
-    margin-bottom: 200px;
+    margin-bottom: 48px;
 }
 .carousel-indicators{
     position:relative;
@@ -98,7 +110,7 @@ section{
         font-size: 16px;
     }
     #navbarGroup{
-        padding-left: 85px;
+        margin-left: 85px;
     }
 }
 @media (min-width: 761px){
@@ -106,7 +118,7 @@ section{
         font-size: 20px;
     }
     #navbarGroup{
-        padding-left: 205px;
+        margin-left: 205px;
     }
     .img.img-thumbnail{
         margin-left:30px;
@@ -117,7 +129,7 @@ section{
         font-size: 26px;
     }
     #navbarGroup{
-        padding-left:120px;
+        margin-left:auto;
     }
     .img.img-thumbnail{
 
