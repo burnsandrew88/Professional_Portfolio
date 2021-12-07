@@ -17,6 +17,7 @@
     margin-top:32px;
     padding: 16px 16px;
 }
+
 .portfolio-box {
     padding: 16px 16px;
 }
@@ -135,12 +136,13 @@ section{
 
         width: 100%;
         margin-left:10px;
-        margin-top:10px;
+        margin-top: 150px;
         margin-bottom:10px;
         padding-left: 10px;
         padding-right: 10px;
         padding-top:10px;
         padding-bottom:10px;
+        height: auto;
 
     }
 } .btn{
