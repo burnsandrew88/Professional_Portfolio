@@ -67,6 +67,9 @@ body{
     text-align: center;
     font-weight:bold;
 }
+.profile-content {
+    padding:30px;
+}
 h2,h3,h4{
     font-family: 'Oswald', sans-serif;
 }
