@@ -146,7 +146,9 @@ section{
         padding-top:10px;
         padding-bottom:10px;
         height: auto;
-
+    }
+    .headingText {
+        text-align: 
     }
 } .btn{
     margin-right: 3px;
